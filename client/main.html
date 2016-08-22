@@ -1,0 +1,28 @@
+<head>
+    <title>Gloww</title>
+</head>
+<template name="mainLayout">
+
+
+<div class="container-fluid">
+    <div class="row">
+        <header class="col-md-12 col-xs-12 hidden-xs">
+            <div class="col-md-1">
+                <div class="page-title">
+                   Gloww
+                </div>
+            </div>
+            {{#if currentUser}} <!-- Check if user logged in -->
+                {{> navbar}} <!-- Load navbar from navbar.html file according to page -->
+            {{/if}}
+            {{> login}}
+        </header>
+    </div>
+    <div class="row">
+        {{> yield}}
+    </div>
+
+</div>
+
+</template>
+

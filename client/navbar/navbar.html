@@ -1,0 +1,9 @@
+<template name="navbar">
+    <div id="mainnav">
+        <!-- Navigation buttons-->
+        <ul class="nav nav-pills">
+            <li><a class="{{#if currentRouteIs 'map'}}active{{/if}}" href="{{pathFor route='map'}}"><span class="glyphicon glyphicon-flag"></span> Map </a></li>
+        </ul>
+
+    </div>
+</template>

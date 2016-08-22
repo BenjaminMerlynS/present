@@ -1,0 +1,22 @@
+/*-----------------------------------------------------------------------------------
+                    Buttons
+-----------------------------------------------------------------------------------*/
+
+button,
+.button {
+  display: inline-block;
+  float: left;
+  padding: 5px 10px;
+  background-color: $green2;
+  border: 0;
+  text-align: center;
+  vertical-align: middle;
+  color: $link-normal;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $green;
+    color: $link-normal;
+  }
+}
+

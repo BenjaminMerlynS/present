@@ -1,0 +1,26 @@
+/*-----------------------------------------------------------------------------------
+  Global SCSS
+-----------------------------------------------------------------------------------*/
+
+html,
+body,
+#map {
+  height: 100%;
+}
+
+body {
+  background-color: $container-back;
+  overflow: hidden;
+}
+
+
+.main-container {
+  @include content();
+}
+
+
+hr {
+  color: $line-color;
+  margin: 5px !important;
+}
+

@@ -1,0 +1,48 @@
+/*-----------------------------------------------------------------------------------
+                                   variables SCSS
+-----------------------------------------------------------------------------------*/
+/*-- Fonts ---*/
+
+$main-font: 'Palanquin', sans-serif;
+$main-fontw: 400;
+$thin-fontw: 200;
+$bold-fontw: 600;
+$lfont: 16px;
+
+
+/*-- Colors ---*/
+
+//Navigation
+$nav-back: #2e8aa4; //#1E434D ?
+$title-color: #efefef;
+
+//Global
+$main-back: rgba(253, 254, 255, .7);
+$container-back: #efefef;
+$line-color: #013b67;
+
+$font-color: #333;
+
+$link-normal: #efefef;
+$link-hover: rgb(0, 70, 141);
+$link-active: rgb(0, 70, 141);
+$link-second: rgb(116, 123, 124);
+
+$green: rgb(4, 80, 70);
+$green2: #4B9859;
+
+$close-red: #d43f3a;
+$close-red-hover: #b90000;
+
+//Menu(dropdown)
+$hover-background: rgba(116, 123, 124, .5);
+//$hover-sideline1: rgba(116, 123, 124, 1);
+//$hover-sideline2: rgb(4, 80, 70);
+$hover-sideline3: $link-hover;
+$hover-sideline: $hover-sideline3;
+
+
+//Buttons
+
+$bback: #595757
+

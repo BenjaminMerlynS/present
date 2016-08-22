@@ -1,0 +1,56 @@
+/*-----------------------------------------------------------------------------------
+            Footer SCSS
+-----------------------------------------------------------------------------------*/
+
+
+
+footer {
+  color: #f3f4d7;
+  background-color: $nav-back;
+  bottom: 0;
+  padding: 0 10px;
+  position: absolute !important;
+  z-index: 100;
+
+  .reference {
+    float: left;
+    padding-top: 20px;
+    margin: 0 0 0 5px;
+    font-size: 13px;
+    font-weight: $thin-fontw;
+  }
+}
+
+.leaflet-control-attribution {
+  display: none;
+}
+
+
+#navprofile {
+  button {
+    height: 39px;
+
+    .glyphicon-user {
+      margin-right: 7px;
+    }
+
+    .caret {
+      margin-left: 5px;
+    }
+  }
+
+  ul {
+    li:hover {
+      border-left-color: $green2;
+
+      a {
+        color: $green2;
+      }
+    }
+  }
+
+  .logout {
+    color: $green2;
+    text-align: center;
+  }
+}

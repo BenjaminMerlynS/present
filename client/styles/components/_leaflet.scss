@@ -1,0 +1,46 @@
+/*-----------------------------------------------------------------------------------
+      Leaflet map and components
+-----------------------------------------------------------------------------------*/
+
+.leaflet-label {
+  border: 0;
+  font-family: $main-font;
+  font-weight: $main-fontw;
+  border-radius: 0;
+  color: $font-color;
+  text-align: center;
+}
+
+.leaflet-label::before {
+  border-right: 6px solid $line-color;
+  border-right-color: $line-color;
+  left: -10px;
+}
+
+.leaflet-right.leaflet-top {
+  margin-top: 100px;
+}
+
+.leaflet-popup-content {
+  margin: 2px;
+  font-size: 10px;
+
+  span {
+    font-size: 8px;
+    color: $line-color;
+  }
+
+  p {
+    margin: 5px 0;
+  }
+}
+
+
+.leaflet-popup-content-wrapper {
+  border-radius: 0;
+  background-color: rgba(255, 255, 255, .6)
+}
+
+.leaflet-popup-tip-container {
+  display: none;
+}

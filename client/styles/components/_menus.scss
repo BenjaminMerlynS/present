@@ -1,0 +1,26 @@
+/*-----------------------------------------------------------------------------------
+                Menus
+-----------------------------------------------------------------------------------*/
+
+
+.dropdown-menu {
+  border-radius: 0;
+  border: 0;
+  padding: 0;
+
+  li:hover {
+    background-color: $hover-background;
+    border-left: 3px solid $hover-sideline;
+    }
+
+  li {
+    a {
+      padding: 7px 15px;
+    }
+  }
+
+  .divider {
+    margin: 0;
+  }
+
+}

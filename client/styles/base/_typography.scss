@@ -1,0 +1,17 @@
+/*-----------------------------------------------------------------------------------
+                            Typography SCSS
+-----------------------------------------------------------------------------------*/
+@import url(https://fonts.googleapis.com/css?family=Palanquin:200,600,400);
+
+body {
+  font-family: $main-font;
+  font-weight: $main-fontw;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 600;
+  color: $font-color;
+}

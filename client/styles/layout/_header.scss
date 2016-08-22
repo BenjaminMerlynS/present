@@ -1,0 +1,103 @@
+/*-----------------------------------------------------------------------------------
+        Header SCSS
+-----------------------------------------------------------------------------------*/
+
+header {
+  top: 0;
+  background-color: $nav-back;
+}
+
+
+/* Main navbar */
+
+.page-title {
+  font-size: 15px;
+  line-height: 40px;
+  font-weight: $bold-fontw;
+  color: $title-color;
+  float: left;
+}
+
+#mainnav {
+  height: 39px;
+  float: left;
+
+  .nav .open > a {
+    background-color: $main-back;
+    color: $link-active;
+  }
+
+  ul {
+    li {
+      a {
+        color: $link-normal;
+
+        &:hover {
+          background-color: $main-back;
+          color: $link-hover;
+        }
+
+        &.active {
+          background-color: $main-back;
+          color: $link-active;
+        }
+      }
+    }
+  }
+
+  .dropdown-menu li a { color: $font-color; }
+}
+
+#secondnav {
+  float: right;
+  margin-right: 20px;
+
+  li a {
+    color: $link-second;
+    padding: 10px 5px;
+    background-color: transparent;
+
+    &:hover {
+      background-color: transparent;
+      color: $link-normal;
+    }
+
+    &.active {
+      background-color: transparent;
+      color: $link-normal;
+    }
+  }
+}
+
+
+.nav {
+  display: inline-block;
+}
+
+.nav-pills > li > a {
+  border-radius: 0;
+}
+
+#navmessages {
+  button {
+    height: 39px;
+  }
+
+  button:first-of-type {
+    border-right: 1px solid $green;
+  }
+
+  button:nth-of-type(2) {
+    padding: 5px;
+  }
+
+  ul {
+    li:hover {
+      border-left-color: $green2;
+
+      a {
+        color: $green2;
+      }
+    }
+  }
+}

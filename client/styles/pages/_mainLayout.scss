@@ -1,0 +1,220 @@
+
+/*-----------------------------------------------------------------------------------
+    MainLyout SCSS
+-----------------------------------------------------------------------------------*/
+.accounts-dialog {
+    width: 350px;
+}
+
+
+/*Login and register forms*/
+
+.register_form {
+    float:right;
+    margin-right: 20px;
+    margin-top:180px;
+    background-color:rgba(255,255,255,0.3);
+    padding: 15px;
+    -webkit-backdrop-filter: blur(3px);
+    text-align:center;
+}
+
+.login-form {
+    display:inline-block;
+    margin: 6px 0 6px 10px;
+    width:35%;
+}
+.smallform {
+    width:15%;
+}
+
+.login {
+    display: block;
+    height: 28px;
+    font-size: 14px;
+    color: #555;
+    line-height: 1.2;
+    border: none;
+    margin: auto 0 auto 0;
+    background-color: #fff;
+    background-image: none;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+.login-logout-button {
+    padding: 3px 12px;
+    margin-top:-3px;
+}
+.register {
+    width:30%;
+}
+
+.UserWelcome {
+    font-size: 15px;
+    color:#f3f4d7;
+    display: inline-block;
+    margin: 0 30px;
+    float: right;
+}
+.welcome {
+    padding-top: 1px;
+    text-align:right;
+    float:right;
+}
+
+
+
+/* Popupalert */
+
+.alert {
+    right: 35%!important;
+    left: 35%!important;
+    top: 70px;
+    bottom: auto!important;
+}
+
+#popUpAlert {
+    text-align: center;
+}
+
+#popUpAlert span {
+    text-align: center;
+    font-size: 11px;
+}
+
+#popUpAlert button {
+    margin-top: 5px;
+}
+
+/* Helper classes */
+
+.background {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+.center {
+    text-align: center;
+}
+.inline {
+    display:inline-block;
+}
+.topmargin-sm {
+    margin-top:10px;
+}
+.leftmargin {
+    margin-left:30px;
+}
+
+.leftmargin-sm {
+    margin-left:10px;
+}
+
+.rightmargin-sm {
+    margin-right:10px;
+}
+
+.rightmargin{
+    margin-right:30px;
+}
+
+.toppadding {
+    padding-top: 30px;
+}
+.notopmargin {
+    margin-top:0;
+}
+.bottommargin {
+    margin-bottom:30px;
+}
+.bottommargin-sm {
+    margin-bottom:10px;
+}
+
+.padding-sm {
+    padding:10px;
+}
+
+.nomargin {
+    margin: 0!important;
+}
+
+.float {
+    position: absolute;
+    z-index: 50;
+    top:54px;
+}
+.fix {
+    position: absolute;
+    z-index:10;
+    width:100%;
+}
+.fleft {
+    float:left;
+}
+
+.fright {
+    float:right;
+}
+
+.blur {
+    display:block;
+    -webkit-filter: blur(20px);
+    -moz-filter: blur(15px);
+    -o-filter: blur(15px);
+    -ms-filter: blur(15px);
+    filter: blur(15px);
+    opacity: 0.95;
+}
+
+.fill {
+    min-height:100% !important;
+    height: 100% !important;
+    display:block !important;
+}
+.alert {
+    z-index: 2000;
+    position: absolute;
+    bottom: 40px;
+    right: 10px;
+    background-color: rgba(252, 248,227,0.8);
+    display:none;
+}
+
+.nopadding {
+    padding: 0 !important;
+}
+
+.line {
+    clear: both;
+    position: relative;
+    width: 100%;
+    margin: 30px 0;
+    border-top: 1px solid #EEE;
+}
+
+/* custom margin for all elements to counter navbar overlap */
+.homepage {
+    margin-top: 70px;
+}
+
+.maincontainer {
+    margin-bottom: 50px;
+    margin-top: 70px;
+}
+
+.show {
+    display:block;
+}
+
+.opacitynull {
+    opacity:0;
+}
+
+.fullwidth {
+    width:100%;
+}
+
+.hand {
+    cursor: pointer;
+}

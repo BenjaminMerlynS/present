@@ -1,0 +1,30 @@
+/*-----------------------------------------------------------------------------------
+      Bootstrap adaptation - Simple changes made to boostrap on a global scale
+
+-----------------------------------------------------------------------------------*/
+
+.caret {
+  margin: 0;
+}
+
+.form-control {
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.panel {
+  border-radius: 0 !important;
+  border: 0;
+}
+
+.panel-heading {
+  padding: 5px 15px;
+}
+
+.panel-title {
+  font-size: 14px;
+}
+
+.panel-group {
+  margin-bottom: 7px;
+}
